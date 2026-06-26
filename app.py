@@ -40,7 +40,7 @@ st.subheader("🤖 Tutor AI BISINDO")
 st.write("Tanyakan kata, kalimat, atau etika berinteraksi dengan teman Tuli. <br>
 AI akan membantu menjelaskannya untuk Anda.")
 
-user_input = st.text_input("Ketik di sini (Contoh: Bagaimana cara isyarat 'Terima Kasih'?):")
+user_input = st.text_input("Ketik di sini (contoh: bagaimana cara isyarat 'terima kasih'?):")
 
 if st.button("Tanya AI", type="primary"):
     if user_input:
