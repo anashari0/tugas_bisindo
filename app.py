@@ -17,14 +17,20 @@ st.title("🤟 Mari Berbicara dengan Tangan: Kenali BISINDO")
 st.image("https://lh3.googleusercontent.com/d/1XQSoEZ1fPWrcZ9zA4q33KrOfGJHXsami", use_container_width=True)
 
 st.markdown("""
-**Membangun dunia yang inklusif dimulai dari komunikasi.** \n
-Kesenjangan informasi seringkali membuat teman Tuli merasa terpinggirkan. Bahasa Isyarat Indonesia (BISINDO) adalah kunci untuk menjembatani ruang antara teman dengar dan teman Tuli. Melalui teknologi AI, mari kita mulai langkah kecil untuk belajar dan peduli.
----
-**Ingin belajar BISINDO secara langsung? Kunjungi:**
-* [🔗 Instagram @silang.ig](https://www.instagram.com/silang.ig?igsh=MTJ5eGx4dGpxcnk1MA==)
-* [🔗 Instagram @pusbisindo](https://www.instagram.com/pusbisindo?igsh=MTl4c2hldmY1dDVieg==)
-* [🔗 Instagram @parakerja](https://www.instagram.com/parakerja?igsh=MTAzNjE2Mzc4N3lidA==)
-""")
+<div style="text-align: center; font-size: 1.05em; line-height: 1.6;">
+    <strong>Membangun dunia yang inklusif dimulai dari komunikasi.</strong><br>
+    Kesenjangan informasi seringkali membuat teman Tuli merasa terpinggirkan. Bahasa Isyarat Indonesia (BISINDO) adalah kunci untuk menjembatani ruang antara teman dengar dan teman Tuli. Melalui teknologi AI, mari kita mulai langkah kecil untuk belajar dan peduli.
+</div>
+
+<hr style="margin-top: 20px; margin-bottom: 20px;">
+
+<div style="text-align: center; font-size: 0.95em;">
+    <strong>Ingin belajar BISINDO secara langsung? Kunjungi:</strong><br><br>
+    <a href="https://www.instagram.com/silang.ig?igsh=MTJ5eGx4dGpxcnk1MA==" target="_blank" style="text-decoration: none; color: #0056b3;">🔗 @silang.ig</a> &nbsp; | &nbsp;
+    <a href="https://www.instagram.com/pusbisindo?igsh=MTl4c2hldmY1dDVieg==" target="_blank" style="text-decoration: none; color: #0056b3;">🔗 @pusbisindo</a> &nbsp; | &nbsp;
+    <a href="https://www.instagram.com/parakerja?igsh=MTAzNjE2Mzc4N3lidA==" target="_blank" style="text-decoration: none; color: #0056b3;">🔗 @parakerja</a>
+</div>
+""", unsafe_allow_html=True)
 
 st.divider()
 
