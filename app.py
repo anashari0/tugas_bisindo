@@ -37,7 +37,8 @@ st.markdown("""
 st.divider()
 
 st.subheader("🤖 Tutor AI BISINDO")
-st.write("Tanyakan kata, kalimat, atau etika berinteraksi dengan teman Tuli. AI akan membantu menjelaskannya untuk Anda.")
+st.write("Tanyakan kata, kalimat, atau etika berinteraksi dengan teman Tuli. <br>
+AI akan membantu menjelaskannya untuk Anda.")
 
 user_input = st.text_input("Ketik di sini (Contoh: Bagaimana cara isyarat 'Terima Kasih'?):")
 
