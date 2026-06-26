@@ -9,20 +9,7 @@ if not API_KEY:
     st.stop()
 
 genai.configure(api_key=API_KEY)
-
-valid_model = "gemini-pro"
-try:
-    for m in genai.list_models():
-        if 'generateContent' in m.supported_generation_methods:
-            nama_bersih = m.name.replace('models/', '')
-            valid_model = nama_bersih
-
-            if 'flash' in valid_model:
-                break
-except Exception:
-    pass
-
-model = genai.GenerativeModel(valid_model)
+model = genai.GenerativeModel("gemini-1.5-flash")
 
 st.set_page_config(page_title="Edukasi BISINDO", page_icon="🤟", layout="centered")
 
