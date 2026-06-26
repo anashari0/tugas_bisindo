@@ -20,7 +20,8 @@ st.markdown("""
 <div style="text-align: center; font-size: 1.05em; line-height: 1.6;">
     <strong>Membangun dunia yang inklusif dimulai dari komunikasi.</strong><br>
     Kesenjangan informasi seringkali membuat teman Tuli merasa terpinggirkan. <br>
-    Bahasa Isyarat Indonesia (BISINDO) adalah kunci untuk menjembatani ruang antara teman dengar dan teman Tuli. Melalui teknologi AI, mari kita mulai langkah kecil untuk belajar dan peduli.
+    Bahasa Isyarat Indonesia (BISINDO) adalah kunci untuk menjembatani ruang antara teman dengar dan teman Tuli. <br>
+    Melalui teknologi AI, mari kita mulai langkah kecil untuk belajar dan peduli.
 </div>
 
 <hr style="margin-top: 20px; margin-bottom: 20px;">
