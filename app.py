@@ -28,7 +28,7 @@ st.write("Tanyakan kata, kalimat, atau etika berinteraksi dengan teman Tuli. AI 
 
 user_input = st.text_input("Ketik di sini (Contoh: Bagaimana cara isyarat 'Terima Kasih'?):")
 
-if st.button("Tanya AI", type="primary):
+if st.button("Tanya AI", type="primary"):
     if user_input:
         with st.spinner('AI sedang berpikir...'):
             prompt = f"""
