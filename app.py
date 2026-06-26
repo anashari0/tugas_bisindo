@@ -2,6 +2,8 @@ import streamlit as st
 import google.generativeai as genai
 import os
 
+st.set_page_config(page_title="Edukasi BISINDO", page_icon="🤟", layout="centered")
+
 API_KEY = os.environ.get("GEMINI_API_KEY")
 
 if not API_KEY:
@@ -10,15 +12,18 @@ if not API_KEY:
 
 genai.configure(api_key=API_KEY)
 
-st.set_page_config(page_title="Edukasi BISINDO", page_icon="🤟", layout="centered")
-
 st.title("🤟 Mari Berbicara dengan Tangan: Kenali BISINDO")
 
-st.image("https://lh3.googleusercontent.com/d/1XQSoEZ1fPWrcZ9zA4q33KrOfGJHXsami", use_column_width=True)
+st.image("https://lh3.googleusercontent.com/d/1XQSoEZ1fPWrcZ9zA4q33KrOfGJHXsami", use_container_width=True)
 
 st.markdown("""
 **Membangun dunia yang inklusif dimulai dari komunikasi.** \n
 Kesenjangan informasi seringkali membuat teman Tuli merasa terpinggirkan. Bahasa Isyarat Indonesia (BISINDO) adalah kunci untuk menjembatani ruang antara teman dengar dan teman Tuli. Melalui teknologi AI, mari kita mulai langkah kecil untuk belajar dan peduli.
+---
+**Ingin belajar BISINDO secara langsung? Kunjungi:**
+* [🔗 Instagram @silang.ig](https://www.instagram.com/silang.ig?igsh=MTJ5eGx4dGpxcnk1MA==)
+* [🔗 Instagram @pusbisindo](https://www.instagram.com/pusbisindo?igsh=MTl4c2hldmY1dDVieg==)
+* [🔗 Instagram @parakerja](https://www.instagram.com/parakerja?igsh=MTAzNjE2Mzc4N3lidA==)
 """)
 
 st.divider()
@@ -57,13 +62,7 @@ if st.button("Tanya AI", type="primary"):
             if jawaban:
                 st.success("Tersedia!")
                 st.write(jawaban)
-                st.markdown("""
-                ---
-                **Ingin belajar BISINDO secara langsung? Kunjungi:**
-                * [🔗 Instagram @silang.ig](https://www.instagram.com/silang.ig?igsh=MTJ5eGx4dGpxcnk1MA==)
-                * [🔗 Instagram @pusbisindo](https://www.instagram.com/pusbisindo?igsh=MTl4c2hldmY1dDVieg==)
-                * [🔗 Instagram @parakerja](https://www.instagram.com/parakerja?igsh=MTAzNjE2Mzc4N3lidA==)
-                """)
+                
             else:
                 st.error(
                     "⏳ Server AI sedang mengalami kepadatan trafik global."
