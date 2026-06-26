@@ -67,6 +67,5 @@ if st.button("Tanya AI", type="primary"):
             else:
                 st.error(
                     "⏳ Server AI sedang mengalami kepadatan trafik global."
-                    " Silakan coba klik tombolnya kembali dalam 30 detik." 
-    else:
-        st.warning("Silakan ketikkan sesuatu terlebih dahulu.")
+                    " Silakan coba klik tombolnya kembali dalam 30 detik."
+                )
